@@ -1,0 +1,124 @@
+
+host: 0.0.0.0
+
+name: "Software Developer Things"
+
+title: "Software Developer Things"
+
+description: "a blog about shit relevant to a software developer"
+
+logo: 'assets/images/logo.png'
+
+favicon: 'assets/images/logo.png'
+
+baseurl: /
+
+#google_analytics: 'UA-46278016-1'
+
+#disqus: 'demowebsite'
+
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+exclude: ["recycle-content"]
+
+include: ["_pages"]
+
+#permalink: /:categories/:title
+
+#permalink: /:title/
+
+
+
+#good permalink: pretty
+
+#latest permalink: /:categories/:title/
+
+# Authors
+
+authors:
+
+  softwareshinobi:
+
+    name: "Software Shinobi"
+
+    display_name: "Software Shinobi"
+
+    gravatar: cf45cdd4de420b52fdbe3fd92521b4d6
+
+    email: the.software.shinobi@gmail.com
+
+    web: https://allmylinks.com/software-shinobi
+
+    twitter: https://www.facebook.com/software.developer.things
+
+    description: "Freelance Software Developer. I design, code, test, document, and deploy software things."
+
+  bohra:
+
+    name: "Bohra"
+
+    display_name: "Bohra" 
+   
+    avatar: 'assets/images/bohra.jpg'
+
+    description: "I write about freelancing, making money online, and marketing."
+
+  alexandria:
+
+    name: "Alexandria"
+
+    display_name: "Alexandria" 
+   
+    avatar: 'assets/images/alexandria.jpg'
+
+    description: "Hi guys! It's Alexandria. I write about career, job search, and mindfulness things."
+
+
+# Plugins
+
+plugins:
+
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+
+  enabled:
+
+    - categories
+
+  layout: archive
+
+  permalinks:
+
+    category: '/category/:name/'
+    
+# Pagination 
+
+paginate: 9
+
+paginate_path: /page/:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

@@ -1,0 +1,71 @@
+---
+
+layout: post
+
+author: softwareshinobi
+
+title:  "lorem ipsum sed"
+
+categories: [lorem-ipsum]
+
+tags: [rambling]
+
+image: https://random.imagecdn.app/820/360
+
+description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti."
+
+hidden: false
+
+---
+
+let's talk today about how to make personal projects as a developer.
+
+there is a progression and you've gotten to the next gate.
+
+you self taught yourself a language, a stack, a whatever.
+
+the person the video did some bullshit and you ready to make your own.
+
+## choosing a personal project
+
+so i can't do choose for you, but i can give you ideas to come up with ideas.
+
+so. let's begin.
+
+## it starts in your head
+
+these thoughts are my own but my thoughts.
+
+don't fall in love with or get married to a persnoal project.
+
+meaning... don't think that you have to see a project through to the end. i'll explain why in another article, but the reason is because there never is a such thing as 'done'.
+
+so if you keep trying to wait until done, you'll never realease.
+
+## mindset #2
+
+release something AS SOON AS POSSIBLE.
+
+doesn't matter what the project is.
+
+## without ado
+
+so let's rattle a bunch of project ideas based on who you might be.
+
+## i have a pet/kids/car/dependent/house/something that needs maintenenance
+
+alright. so identify something in your life that has maintenence. 
+
+you can make a personal project a software situation to track and log 'events' (you are building an incident management system in corporate speak).
+
+you cold create an application that lets you track every time your dog shits.
+
+an application to track every time you got an oil change. 
+
+an application to track the mileage on your car over time.
+
+an app to track everytime you shopped until you dropped.
+
+these kind of apps are transactional.
+
+something happened and you created a record of it.

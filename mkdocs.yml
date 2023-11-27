@@ -1,0 +1,48 @@
+
+#https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages-without
+
+docs_dir: _posts
+
+site_name: Software Developer Things
+
+exclude_docs: |
+  /images-pictures 
+  images-pictures    # A file with this name anywhere.
+  images-pictures/            # A "drafts" directory anywhere.
+  /requirements.txt  # Top-level "docs/requirements.txt".
+  *.py               # Any file with this extension anywhere.
+  !/foo/example.py   # But keep this particular file.
+
+theme:
+    palette:
+    
+        primary: lime
+    
+        scheme: slate
+
+ ##       - navigation.expand
+        
+    ##
+    ## Find More Themes Here:
+    ##
+    ##     https://mkdocs.github.io/mkdocs-bootswatch/
+    ##
+    ## List of theme values:
+    ##
+    ##     mkdocs, readthedocs, material, cerulean, cosmo, 
+    ##     cyborg, darkly, flatly, journal, litera, lumen, lux,
+    ##     materia, minty, pulse, sandstone, simplex, slate, solar,
+    ##     spacelab, superhero, united, yeti 
+    ##
+
+    name: material
+    
+    ## 
+    ## you can alternate colors for the navigation header.
+    ##
+    ## Allowed values: primary (the default), dark, and light:
+    ##
+    
+    nav_style: primary
+
+extra_css: [.custom-styling.css]
