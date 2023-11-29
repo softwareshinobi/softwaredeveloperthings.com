@@ -1,2 +1,0 @@
-# softwaredeveloperthings.com
-softwaredeveloperthings.com

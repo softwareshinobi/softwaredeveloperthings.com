@@ -1,8 +1,0 @@
-I'm new to the group. However,  I have observed that so many are groping in the dark when it comes to planning or designing an app or project.
-Here's something that I hope can help those struggling to have a good start in app design and planning.
-SUGGESTED APPROACH TO ANALYSIS & DESIGN (in a nutshell)
-1. Know the requirements (outputs of the app)
-2. From the requirements, determine what data sources (inputs) are needed to produce the requirements (outputs)
-3. Connect data sources (inputs) to requirements (outputs) by defining what processes (data transformations, also called functions) that are needed to produce the requirements (outputs).
-4. To make things simple, let each function do only one thing. If a transform is complex, break it up into smaller functions that do only one thing. This will make debugging and modifying easier.
-5. Develop your sense for the aesthetic, via your imagination, and observing the work of others. Towards this end, don't just think of the earnings you will make, develop a LOVE FOR WHAT YOU ARE DOING - this is what will fire up your imagination, creativity and innovation
