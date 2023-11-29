@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+
+    software-developer-things:
+
+        container_name: software-developer-things
+
+        image: titom73/mkdocs
+      
+        volumes:
+        
+            - ${PWD}/mkdocs.yml:/docs/mkdocs.yml
+
+            - ${PWD}:/docs
+            
+        ports:
+
+            - 8888:8000
