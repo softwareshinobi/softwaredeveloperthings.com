@@ -16,6 +16,8 @@ description: "In this article we will show you the 15 that you need to adopt to 
 
 hidden: false
 
+tags: featured
+
 ---
 
 ## Introduction
