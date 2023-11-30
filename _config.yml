@@ -1,11 +1,14 @@
-# Site
-name: 'softwaredeveloperthings.com!'
-
-description: 'put something clever here later.'
 
 logo: 'assets/images/logo.png'
 
 favicon: 'assets/images/favicon.ico'
+
+name: "Software Developer Things"
+
+title: "Software Developer Things"
+
+description: "I'll put something witty and clever here later."
+
 
 baseurl: '/'
 
@@ -14,6 +17,8 @@ disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+exclude: ["recycle-content"]
 
 include: ["_pages"]
 
@@ -35,13 +40,46 @@ authors:
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+
+authors:
+
+  softwareshinobi:
+
+    name: "Software Shinobi"
+
+    display_name: "Software Shinobi"
+
+    gravatar: cf45cdd4de420b52fdbe3fd92521b4d6
+
+    email: the.software.shinobi@gmail.com
+
+    site: https://softwareshinobi.digital
+
+    twitter: https://www.facebook.com/software.developer.things
+
+    description: "Freelance Software Developer & Technical Writer. I design, code, test, document, and deploy software things."
+
+    bio: "Freelance Software Developer & Technical Writer. I design, code, test, document, and deploy software things."
+  bohra:
+
+    name: "Bohra"
+
+    display_name: "Bohra" 
+   
+    avatar: 'assets/images/bohra.jpg'
+
+    description: "Troy's Assistant, I write about freelancing, making money online, and marketing."
+
+  alexandria:
+
+    name: "Alexandria"
+
+    display_name: "Alexandria" 
+   
+    avatar: 'assets/images/alexandria.jpg'
+
+    description: "Hi guys! It's Alexandria. I write about career, job search, and mindfulness things."
+
  
 # Defaults
 defaults:
@@ -61,7 +99,9 @@ defaults:
       layout: page
       
 # Syntax
+
 markdown: kramdown
+
 highlighter: rouge
 
 # Paginate
