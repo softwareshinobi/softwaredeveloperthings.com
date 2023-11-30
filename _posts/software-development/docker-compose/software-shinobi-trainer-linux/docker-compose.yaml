@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+    software-developer-things-linux:
+
+        container_name: software-developer-things-linux
+
+        hostname: software-developer-things
+        
+        image: softwareshinobi/software-developer-things-linux:latest
+
+        restart: "always"
+
+        domainname: ssh.softwaredeveloperthings.com
+
+        ports:
+
+            - '42422:22'

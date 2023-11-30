@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+    software-shinobi-diagrams:
+
+        container_name: software-shinobi-diagrams
+
+        image: jgraph/drawio
+
+        restart: always
+
+        ports:
+        
+            - 8080:8080
