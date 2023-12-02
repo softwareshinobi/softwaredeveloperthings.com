@@ -4,15 +4,15 @@ layout: post
 
 author: alexandria
 
-title:  "15 Traits To Adopt To Get What Out Of Life"
+title:  "Adopt These 15 Traits To Get What Out Of Life"
 
-categories: [mindfulness]
+categories: [lifestyle,mindfulness]
 
-tags: [mindfulness]
+tags: [lifestyle,mindfulness]
 
 image: https://random.imagecdn.app/820/360
 
-description: "In this article we will show you the 15 that you need to adopt to be like these people and get what you really want."
+description: "In this article we detail 15 traits to adopt to get what you really want out of life."
 
 hidden: false
 
@@ -22,13 +22,13 @@ tags: featured
 
 ## Introduction
 
-Getting what you really want from life is easier than you may think.
+Getting what you really want from life is easier than you think.
 
-The main reason that you don’t have the things and people that you want in your life right now is completely down to you. Your behaviors have not supported you to reach out and grab those things that you really want.
+The reason you don’t have the things and the people you want in your life is completely down to you. Your behaviors have not supported you to reach out and grab those things that you really want.
 
 There are many successful people in the world that have everything that they want. Most of these people started from nothing but they had the traits to succeed.
 
-In this article we will show you the 15 that you need to adopt to be like these people and get what you really want.
+In this article we detail 15 traits to adopt to get what you really want out of life.
 
 It is going to take some time and effort on your part to adopt these traits and practice them regularly. There is no overnight miracle here.
 
@@ -44,7 +44,7 @@ They will never try anything new because they believe that nothing will work for
 
 We all have negative thoughts from time to time. Some people have a lot more negative thoughts than others. Over time this negativity eats away at them and they become a total pessimist. A lot of people are neither optimists nor pessimists and do not do much with their lives.
 
-### Be An Optimist
+## Be An Optimist
 
 What we want you to do is to make the transition to an optimist. An optimist is someone that sees the positive side in things.
 
@@ -208,7 +208,7 @@ You need to get the right amount of sleep so that your body and brain gets the r
 
 There are many ways that you can achieve this so search online for ways to sleep better if you are having trouble in this area. If you are deprived of sleep then you will not be able to perform at optimum levels and you will lack the energy you need to achieve what you want in your life.
 
-## Learn Every Data
+## Learn Every Day
 
 Successful people are life learners.
 

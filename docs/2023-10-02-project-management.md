@@ -40,5 +40,4 @@ hidden: false
 
 - [ ] change 'explore' text
 
-
 ## backlog

@@ -1,6 +1,4 @@
 
-#https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages-without
-
 docs_dir: _posts
 
 site_name: Software Developer Things
@@ -36,7 +34,7 @@ theme:
     ##     spacelab, superhero, united, yeti 
     ##
 
-    name: solar
+    name: readthedocs
     
     ## 
     ## you can alternate colors for the navigation header.
