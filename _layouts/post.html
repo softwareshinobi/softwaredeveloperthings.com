@@ -23,7 +23,16 @@ layout: default
                         {% if author.avatar %}
                         <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
                         {% endif %}
-						<small class="ml-3"> {{ author.name }} <span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+						<small class="ml-3"> {{ author.name }} <span>
+						
+						
+						
+						<a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-primary btn-sm" clasvs="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+						
+						
+						
+						
+						
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 					</div>
@@ -130,7 +139,7 @@ layout: default
                         <h5 class="font-weight-bold">Written By <i>{{ author.name }}</i> {% if author.twitter %}<span>
 						
 						
-						<a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-primary" cladss="btn btn-outline-success btn-sm btn-round ml-2">
+						<a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-primary btn-sm" cladss="btn btn-outline-success btn-sm btn-round ml-2">
 											
 							Follow
 												
