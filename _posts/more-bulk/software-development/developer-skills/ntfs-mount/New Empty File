@@ -1,0 +1,255 @@
+https://superuser.com/questions/788984/unable-to-mount-2tb-ntfs-hard-drive-in-ubuntu-14-04
+
+Super User is a question and answer site for computer enthusiasts and power users. It only takes a minute to sign up.
+Anybody can ask a question
+Anybody can answer
+The best answers are voted up and rise to the top
+Super User
+
+    Home
+        Public
+
+    Questions
+    Tags
+    Users
+    Companies
+    Unanswered
+
+Teams
+Stack Overflow for Teams – Start collaborating and sharing organizational knowledge.
+
+Unable to mount 2TB NTFS hard drive in Ubuntu 14.04
+Asked 9 years, 3 months ago
+Modified 5 years, 6 months ago
+Viewed 15k times
+1
+
+Can somebody assist me on this one?
+
+Error mounting /dev/sdg4 at /media/jote/DATA_4: Command-line `mount -t "ntfs" -o "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000,dmask=0077,fmask=0177" "/dev/sdg4" "/media/jote/DATA_4"' exited with non-zero exit status 13: Error reading bootsector: Input/output error
+Failed to mount '/dev/sdg4': Input/output error
+NTFS is either inconsistent, or there is a hardware fault, or it's a
+SoftRAID/FakeRAID hardware. In the first case run chkdsk /f on Windows
+then reboot into Windows twice. The usage of the /f parameter is very
+important! If the device is a SoftRAID/FakeRAID then first activate
+it and mount a different device under the /dev/mapper/ directory, (e.g.
+/dev/mapper/nvidia_eahaabcc1). Please see the 'dmraid' documentation
+for more details.
+
+I asked a question on AskUbuntu and got the answer to use Windows's chkdsk /f to repair the 'corrupted' NTFS partitions. However, my partition is perfectly healthy! Can someone explain me why a tool like PartedMagic - which is also Linux - can perfectly mount and use this drive and Ubuntu 14.04 cannot?
+
+    ubuntuhard-drivemountntfsubuntu-14.04
+
+Share
+Improve this question
+Follow
+edited Apr 13, 2017 at 12:23
+Community's user avatar
+CommunityBot
+1
+asked Jul 28, 2014 at 7:24
+user309101's user avatar
+user309101
+5111 gold badge11 silver badge44 bronze badges
+
+    1
+    And have you run chkdsk /f -> reboot -> chkdsk /f as it says? (The reboot isn't strictly necessary, but it re-settles Windows) – 
+    Kinnectus
+    Jul 28, 2014 at 7:40
+    Please use <pre> before and </pre> after your error message text - it makes it readable in comparision to what is above. – 
+    Hannu
+    Jul 28, 2014 at 8:50 
+
+    Check NTFS driver versions, on Windows and when you can and cannot use the drive - Do they match? Which versions do you see/use? – 
+    Hannu
+    Jul 28, 2014 at 8:53
+    @BigChris: I ran chkdsk /f and rebooted into Windows twice, as said in the error message. – 
+    user309101
+    Jul 28, 2014 at 9:38
+    @Hannu : Thank you for the advice. Indeed, it looks better now! – 
+    user309101
+    Jul 28, 2014 at 9:40
+
+Show 9 more comments
+2 Answers
+Sorted by:
+1
+
+Install ntfs-3g with sudo apt-get install ntfs-3g. Then run the ntfsfix command on your NTFS partition.
+
+    ntfsfix v2.0.0 (libntfs 10:0:0)
+
+    Usage: ntfsfix [options] device
+
+    Attempt to fix an NTFS partition.
+
+    -h, --help             Display this help
+    -V, --version          Display version information
+
+    For example: ntfsfix /dev/hda6
+
+    Developers' email address: linux-ntfs-dev@lists.sf.net Linux NTFS homepage: http://www.linux-ntfs.org
+
+=======================================
+
+You can use a program called ntfsprogs. If its not installed, you can install it by, just press Ctrl+Alt+T on your keyboard to open Terminal. When it opens, run the command(s) below:
+
+sudo apt-get install ntfsprogs
+
+Once installed, you need to find out you NTFS drive name, just do sudo fdisk -l, to find that out, once you know the name, then
+
+sudo ntfsfix /dev/sdXX
+
+Make sure that you replace the XX with your drive's name.
+
+Note: Whenever you're dealing with partition, make sure that you have a complete backup just to be on the safe side.
+
+===================================
+
+sudo apt-get install testdisk
+
+Then run it:
+
+sudo testdisk
+
+and follow the instructions. You must search for partitions and then write the changes.
+
+Thanks to answerers here:
+
+    Fix corrupt NTFS partition without Windows
+
+    Repair NTFS without Windows?
+
+Share
+Improve this answer
+Follow
+edited Apr 13, 2017 at 12:22
+Community's user avatar
+CommunityBot
+1
+answered Jul 29, 2014 at 10:03
+Ruslan Gerasimov's user avatar
+Ruslan Gerasimov
+2,16611 gold badge1515 silver badges1212 bronze badges
+Add a comment
+0
+
+The issue has been resolved from a Windows PC using the "chkdsk" command. https://neosmart.net/wiki/chkdsk/
+
+Windows will automatically repair the corrupted file system.
+
+It works :D
+Share
+Improve this answer
+Follow
+answered Apr 8, 2018 at 11:28
+Vishnu Prasad's user avatar
+Vishnu Prasad
+1
+Add a comment
+You must log in to answer this question.
+Not the answer you're looking for? Browse other questions tagged
+
+    ubuntuhard-drivemountntfsubuntu-14.04
+
+.
+
+    The Overflow Blog
+
+Edge and beyond: How to meet the increasing demand for memory
+sponsored post
+
+    AI is only as good as the data: Q&A with Satish Jayanthi of Coalesce
+    Featured on Meta
+    Changes to MSE deployment process may cause intermittent issues on November...
+    Update: New Colors Launched
+
+Related
+1
+NTFS partition broke: Won't mount in Linux & Windows won't boot
+0
+Mount error after power outage
+1
+Cannot mount Windows 8 partition disk on Ubuntu 12.10
+1
+Trouble mounting NTFS disk on Linux
+0
+dual boot ubuntu with windows 8
+0
+Seagate external hard drive is not able to mount either into ubuntu or wondows.showing Dbus Error orh.gtk
+0
+Unable to mount external drive or sshfs
+0
+How can I get Ubuntu to recognize Asus X205T hardware
+0
+Unable to mount 8TB external hard drive
+Hot Network Questions
+
+    When is "de" needed after "plutot que"?
+    What is the minimum temperature difference which can be measured?
+    How to determine if Oracle is installed on Microsoft Windows or Unix using SQL?
+    What does ざらんや mean?
+    Command to insert a string between each character in another string
+    Can a definition be true/false?
+    Compute the conjugate of a partition
+    C64 char screen plot routine - not clear about reason for logical OR
+    Syntax of sentences with the verb "pudet"
+    More stable algorithm to calculate `sqrt(a^2 + b^2) - abs(a)` in MatLab
+    How can I make my Tonkotsu broth less fatty?
+    I __________ you to see a doctor. "would take" or "am taking"?
+    Printing the elements of a forward linked list
+    Can I safely remove the Snap Store without removing snapd on Ubuntu 22.04 LTS?
+    Is the requirement to accept refugees unconditional in international law, even in the case of a forced population transfer?
+    Restricted Meta-Cat
+    Is there a tailwind limit while in cruise?
+    What’s the ampacity for 18 AWG wire, at 24 V AC
+    Did Phantom Secure use the same level of encryption as WhatsApp?
+    Can we say "the pot is leaking" or "the pot leaks" when the pot is empty?
+    an esoteric matchbox
+    Development board's charging unit in a custom PCB production
+    Is the DWV Tee in this washer service installed bacwards?
+    Are Rechargeable Li-ion considered Primary batteries if charging is not available on the device?
+
+Question feed
+
+Super User
+
+    Tour
+    Help
+    Chat
+    Contact
+    Feedback
+
+Company
+
+    Stack Overflow
+    Teams
+    Advertising
+    Collectives
+    Talent
+    About
+    Press
+    Legal
+    Privacy Policy
+    Terms of Service
+    Cookie Settings
+    Cookie Policy
+
+Stack Exchange Network
+
+    Technology
+    Culture & recreation
+    Life & arts
+    Science
+    Professional
+    Business
+    API
+    Data
+
+    Blog
+    Facebook
+    Twitter
+    LinkedIn
+    Instagram
+
+Site design / logo © 2023 Stack Exchange Inc; user contributions licensed under CC BY-SA. rev 2023.11.1.10018

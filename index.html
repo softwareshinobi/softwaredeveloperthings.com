@@ -1,20 +1,17 @@
 ---
-
-title: "Software Developer Things"
-
+title: "?????undana Free Jekyll Theme"
 layout: default
-
 pagination:
-
     enabled: true
-
-description: "the musings of a senior software developer and his assistants."
-
+description: "A ???great Jekyll theme developed by Sal @wowthemesnet."
 ---
 
-<div class="container">
 
-    {% if page.url == "/" %}
+<div class="container">
+    hello?
+{% if page.url == "/" %}
+    
+    
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
@@ -35,7 +32,7 @@ description: "the musings of a senior software developer and his assistants."
     </p>
     <div>
         <small class="d-block text-muted">
-             <span class="catlist">
+            In <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
@@ -165,17 +162,13 @@ description: "the musings of a senior software developer and his assistants."
     
 
 
-<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skip the first 4 posts displayed above -->
+<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
     
 <div class="row mt-3">
    
     <div class="col-md-8 main-loop">
         
-        <h4 class="font-weight-bold spanborder"><span>All Articles
-
-        </span>
-
-        </h4>
+        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
         
 
         {% for post in paginator.posts %}
@@ -216,11 +209,11 @@ description: "the musings of a senior software developer and his assistants."
     </div>
     
     <div class="col-md-4">
-
-        {% include sidebar-featured.html %}
-
+        {% include sidebar-featured.html %}    
     </div>
-
+    
 </div>
+
+
 
 </div>
