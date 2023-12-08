@@ -1,0 +1,13 @@
+site_name: SQL Developer Bootcamp | Tech Tutor Troy
+theme:
+
+    name: readthedocs
+
+    highlightjs: true
+
+    hljs_languages:
+
+        - yaml
+        - rust
+        - javascript
+        - sql
