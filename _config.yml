@@ -3,26 +3,21 @@ logo: 'assets/images/logo.png'
 
 favicon: 'assets/images/favicon.ico'
 
-name: "Article Editing Workspace"
+name: "Software Developer Things Staging"
 
-title: "Article Editing Workspace"
+title: "Article Editing Work333space"
 
 description: "I'll put something witty and clever here later."
 
-
 baseurl: '/'
 
-disqus: 'demowebsite'
-
-email: 'wowthemesnet@gmail.com'
-
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
-
-exclude: ["recycle-content"]
+email: 'the.software.shinobi@gmail.com'
 
 include: ["_pages"]
 
-permalink: /:title/
+exclude: ["recycle-content"]
+
+permalink: none
 
 # Plugins
 plugins: 
@@ -58,7 +53,9 @@ authors:
     twitter: https://www.facebook.com/software.developer.things
 
     description: "Freelance Software Developer & Technical Writer. I design, code, test, document, and deploy software things."
-    avatar: 'assets/images/bohra.jpg'
+
+    avatar: 'assets/images/valorant/softwareshinobi.jpg'
+
     bio: "Freelance Software Developer & Technical Writer. I design, code, test, document, and deploy software things."
   bohra:
 
@@ -66,7 +63,7 @@ authors:
 
     display_name: "Bohra" 
    
-    avatar: 'assets/images/bohra.jpg'
+    avatar: 'assets/images/valorant/bohra.jpg'
 
     description: "Troy's Assistant, I write about freelancing, making money online, and marketing."
 
@@ -76,7 +73,7 @@ authors:
 
     display_name: "Alexandria" 
    
-    avatar: 'assets/images/alexandria.jpg'
+    avatar: 'assets/images/valorant/alexandria.jpg'
 
     description: "Hi guys! It's Alexandria. I write about career, job search, and mindfulness things."
 
@@ -89,8 +86,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: softwareshinobi
+      avatar: /assets/images/valorant/softwareshinobi.jpg
       
   # all pages
   - scope:
@@ -106,8 +103,6 @@ highlighter: rouge
 
 # Paginate
 paginate: 10
-
-
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
