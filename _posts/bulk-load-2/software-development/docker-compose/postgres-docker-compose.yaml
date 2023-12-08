@@ -1,0 +1,48 @@
+version: "3"
+
+services:
+
+    card-players-united-database-server:
+
+        container_name: card-players-unite-database-server
+        
+        image: postgres:14.1-alpine
+
+        restart: always
+
+        environment:
+
+            - POSTGRES_USER=cardplayersunited
+
+            - POSTGRES_PASSWORD=cardplayersunited
+
+        ports:
+
+            - "5432:5432"
+
+        volumes: 
+
+            - ./volume-data-postgres:/var/lib/postgresql/data
+ 
+    card-players-united-database-manager:
+
+        container_name: card-players-united-database-manager
+
+        image: dpage/pgadmin4
+        
+        restart: always
+
+        ports:
+        
+            - "5050:80"
+            
+        environment:
+        
+            PGADMIN_DEFAULT_EMAIL: rlmessick@gmail.com
+            
+            PGADMIN_DEFAULT_PASSWORD: Oh4X2nsoWeSEytw
+
+        volumes:
+        
+           - ./volume-data-pgadmin4:/var/lib/pgadmin
+            
