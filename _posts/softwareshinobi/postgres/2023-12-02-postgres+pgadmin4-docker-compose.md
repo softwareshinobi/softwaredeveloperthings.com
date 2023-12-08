@@ -4,15 +4,15 @@ layout: post
 
 author: softwareshinobi
 
-title:  "postgres database + pgadmin4 [docker compose]"
+title:  "setting up a postgres database + pgadmin4 using docker compose [ubuntu linux]"
 
-categories: [postgres,compose]
+categories: [postgres,docker]
 
-tags: [docker-compose,compose,database,postgres,pgadmin]
+tags: [docker compose,compose,database,postgres,pgadmin]
 
 image: https://random.imagecdn.app/820/360
 
-description: "docker compose script to spin up a postres database plus the administrator website."
+description: "docker compose script to spin up a postres database plus the administration website."
 
 hidden: false
 
@@ -20,7 +20,7 @@ hidden: false
 
 ## about this script
 
-this is a docker compose script to spin up a postres database plus the administrator website.
+this is a docker compose script to spin up a postres database plus the administration website.
 
 ## docker-compose.yaml
 
