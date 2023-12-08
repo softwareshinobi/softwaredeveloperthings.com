@@ -3,7 +3,7 @@ logo: 'assets/images/logo.png'
 
 favicon: 'assets/images/favicon.ico'
 
-name: "Software Developer Things Staging"
+name: "Software Developer Things"
 
 title: "Article Editing Work333space"
 
@@ -19,8 +19,8 @@ exclude: ["recycle-content"]
 
 permalink: none
 
-# Plugins
 plugins: 
+
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
@@ -44,11 +44,9 @@ authors:
 
     display_name: "Software Shinobi"
 
-    gravatar: cf45cdd4de420b52fdbe3fd92521b4d6
-
     email: the.software.shinobi@gmail.com
 
-    site: https://softwareshinobi.digital
+    site: https://links.softwareshinobi.digital
 
     twitter: https://www.facebook.com/software.developer.things
 
@@ -65,7 +63,7 @@ authors:
    
     avatar: 'assets/images/valorant/bohra.jpg'
 
-    description: "Troy's Assistant, I write about freelancing, making money online, and marketing."
+    bio: "Troy's Assistant, I write about freelancing, making money online, and marketing."
 
   alexandria:
 
@@ -75,7 +73,7 @@ authors:
    
     avatar: 'assets/images/valorant/alexandria.jpg'
 
-    description: "Hi guys! It's Alexandria. I write about career, job search, and mindfulness things."
+    bio: "Hi guys! It's Alexandria. I write about career, job search, and mindfulness things."
 
  
 # Defaults
