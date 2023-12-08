@@ -52,7 +52,9 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-  </div>
+        {% include search-lunr.html %}
+
+    </div>
 </nav>
 
     <!-- Navbar -->
@@ -66,9 +68,7 @@
             <ul class="navbar-nav mr-auto d-flex align-items-center">
                {% include menu-header.html %}
             </ul>
-            <ul class="navbar-nav ml-auto d-flex align-items-center">
-                {% include search-lunr.html %}
-            </ul>
+
         </div>
     </div>
     </nav>
