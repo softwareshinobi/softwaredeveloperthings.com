@@ -14,22 +14,29 @@ layout: default
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						
+							In
+							
 							{% for category in page.categories %}
 							
-								<a class="btn btn-link btn-sm" cladss="sscroll text-danger" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category | downcase }}</a>
-							
-								<span class="sep">, </span>
+								<a class="btn btn-link btn-sm" cladss="sscroll text-danger" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
 								
+									{{ category | downcase }}
+									
+								</a>
+							
+								<!-- 
+								<span class="sep">, </span>
+								-->
 							{% endfor %}
 							
                         </span>
 					</p>
-					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
+					<h1 c6lass="display-4 mb-4 article-headline">{{ page.title }}</h1>
 					<div class="d-flex align-items-center">
                         {% if author.avatar %}
                         <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
                         {% endif %}
-						<small class="ml-3"> {{ author.name }} <span>
+						<small class="6ml-3"> {{ author.name }} <span>
 						
 						
 						
@@ -39,7 +46,7 @@ layout: default
 						
 						
 						
-                            <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
+                            <span clas5s="tex6t-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 					</div>
 				</div>
