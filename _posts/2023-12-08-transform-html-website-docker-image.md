@@ -8,15 +8,13 @@ title:  "Transform Your HTML Web Site Into A Docker Image [2023]"
 
 categories: [html,docker]
 
-tags: [guide,html,how-to,docker,docker image,docker compose]
-
 image: https://random.imagecdn.app/820/360?q=5
 
 description: "In this docker guide you'll learn how to transform your HTML web site source code into a Docker image using a Dockerfile and Docker Compose."
 
-hidden: false
+tags: [guide,html,how-to,docker,docker image,docker compose,sticky]
 
-tags: [sticky]
+hidden: false
 
 ---
 
