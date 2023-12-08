@@ -73,17 +73,17 @@ function lunr_search(term) {
     .lunrsearchresult a:hover .title {text-decoration: underline;}
 </style>
 
-<form onChange="return lunr_search(document.getElementById('lunrsearch').value);">
+<form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
 
     <input
-        type="text"
-      
+
+        type="text"      
         id="lunrsearch"
         name="q"
         value=""
         placeholder="Enter search keywords here..."
+        class="form-control me-sm-2" 
 
-class="form-control me-sm-2" 
     > 
 
 </form>
