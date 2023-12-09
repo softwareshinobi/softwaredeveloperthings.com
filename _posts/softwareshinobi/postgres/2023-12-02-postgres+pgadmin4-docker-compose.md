@@ -12,7 +12,7 @@ tags: [docker compose,compose,database,postgres,pgadmin]
 
 image: https://random.imagecdn.app/820/360
 
-description: "docker compose script to spin up a postres database plus the administration website."
+description: "this is a docker compose configuration to spin up a postres database plus the administration website."
 
 hidden: false
 
@@ -20,7 +20,7 @@ hidden: false
 
 ## about this script
 
-this is a docker compose script to spin up a postres database plus the administration website.
+this is a docker compose configuration to spin up a postres database plus the administration website.
 
 ## docker-compose.yaml
 
@@ -73,12 +73,4 @@ services:
         
             - ./container-volume/pgadmin4/:/var/lib/pgadmin
 
-```
-
-## run the docker compose script
-
-```bash
-docker-compose down
-
-docker-compose up
 ```
