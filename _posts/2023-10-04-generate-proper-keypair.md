@@ -4,7 +4,7 @@ layout: post
 
 author: softwareshinobi
 
-title:  "generating proper SSH keys [ubuntu liux]"
+title:  "generating proper SSH keys [ubuntu linux]"
 
 categories: [linux,security]
 
