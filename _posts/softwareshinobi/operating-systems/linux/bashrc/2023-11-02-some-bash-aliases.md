@@ -22,15 +22,18 @@ hidden: false
 
 this is a just a collection of aliases you can use on your linux servers and linux productivity machines.
 
+## what these bash aliases do
+
+you are basically creating custom terminal commands that do whatever you want.
+
 ## how to use these bash aliases
 
 just copy and paste the aliases into your `.bashrc` file. close any existing terminal windows.
 
-use the terminal like normal but now you can use the commands that you pasted into the `.bashrc` file
+## what happens after you set these up
 
-## what these bash aliases do
+you will use the linux terminal like normal BUT now you can use the bash aliases like terminal commands.
 
-you are basically creating custom terminal commands that do whatever you want.
 
 ## editing the `.bashrc` file
 
