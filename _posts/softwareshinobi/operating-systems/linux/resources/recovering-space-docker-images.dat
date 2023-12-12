@@ -1,0 +1,38 @@
+software-shinobi@pandora:~/Documents/live-websites/software-shinobi/channels/software-shinobi-academy/softwaredeveloperthings.com/_posts/softwareshinobi/operating-systems/linux/cloud$ docker image ls
+REPOSITORY                               TAG       IMAGE ID       CREATED         SIZE
+<none>                                   <none>    82f66c3fb281   3 days ago      197MB
+softwareshinobi/software-shinobi-linux   latest    66f5c6a46fbf   3 days ago      282MB
+<none>                                   <none>    d6b88d0a6249   3 days ago      282MB
+softwareshinobi/trivial-html-web-site    latest    67728d9c03f4   3 days ago      193MB
+<none>                                   <none>    89664b95f165   4 days ago      193MB
+httpd                                    latest    a6ca7b52a415   3 weeks ago     168MB
+softwareshinobi/software-shinobi-linux   <none>    84046a47ba00   2 months ago    366MB
+jekyll/jekyll                            latest    3c7afda80cab   13 months ago   829MB
+ubuntu                                   14.04     13b66b487594   2 years ago     197MB
+jekyll/jekyll                            3.8.5     9a231cb4dfd0   4 years ago     451MB
+ralfbs/httrack                           latest    cae9360bdcd9   5 years ago     66.5MB
+software-shinobi@pandora:~/Documents/live-websites/software-shinobi/channels/software-shinobi-academy/softwaredeveloperthings.com/_posts/softwareshinobi/operating-systems/linux/cloud$ docker image rm jekyll/jekyll:
+3.8.5   latest  
+software-shinobi@pandora:~/Documents/live-websites/software-shinobi/channels/software-shinobi-academy/softwaredeveloperthings.com/_posts/softwareshinobi/operating-systems/linux/cloud$ docker image rm jekyll/jekyll:3.8.5 jekyll/jekyll:latest d6b88d0a6249 89664b95f165
+Untagged: jekyll/jekyll:latest
+Untagged: jekyll/jekyll@sha256:400b8d1569f118bca8a3a09a25f32803b00a55d1ea241feaf5f904d66ca9c625
+Deleted: sha256:3c7afda80cab64f4d9258ded659bde3d07f3c67ad7265af73e0b45125147fc72
+Deleted: sha256:adb47c9ab8dcaff2be8b6b79c50cc8b1f0c8e232a956e475816b5baed08a3893
+Deleted: sha256:29373a6c18c734b99fc843ac4597384dc2bd3e3f7ebfed34e23e0db5853fac4c
+Deleted: sha256:9c2631abab11b40dabcfeff55da7350b7ce77c8398bbb78c1d250251db5c5ef9
+Deleted: sha256:f0cae871675e83405a9a19ec24644cdaae82fdd026777a86c3287d36fda82960
+Deleted: sha256:9f40f5c3bcd06c684eeb5dd8c194a58fce2927ffaf8eb8f0e5847e5ca19bc157
+Deleted: sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628
+Deleted: sha256:d6b88d0a62491608970d69f4ee5fb35583d236a8f623b0893c4f9d3cce15d887
+Deleted: sha256:26a233847c0dd132fb03bfb31063d1f86f43b2091c1cda1e0c5cd8ebc2daca5b
+Deleted: sha256:3dde0f01955f03f835f6c416a934c1ddf749211389daafc95aea9cef4ffd08fc
+Deleted: sha256:604654ae2c62674615c394d297509252b59306802d3a66dacbb704f21e8bdfc8
+Deleted: sha256:8b0a79eace4cfd0a48e14918ca96e8d665b00f4775099a80e64353f43aa87d7d
+Deleted: sha256:06a8e76eb325cc4529550f5741d12f1abf5826569effe4ae02044e6f18f58f45
+Deleted: sha256:1b0a52e5e60e3233572245bbde2e37ec0e3115cbdfae4a03a53f141cae383e19
+Deleted: sha256:9eaf43bde2e3bb2951921ba76f722ced179b1fd08bbefa4474d84b2d9b243b4c
+Deleted: sha256:89664b95f165fcd0733f738ae0d7548d5f9557fe3c35f9229a06a6ee51b8e914
+Deleted: sha256:74f9ddf89947b45a7b8aeaabfe041f739d8e38de49886e88e81660912e4b4922
+Deleted: sha256:f251ae250727c0102d751f9f8e1c5a6708b9e4998bb3eb9979dbef27abb1de1d
+Deleted: sha256:fdd31066180e98119fed864d7f1d223c6af7b38074d8b1802baee5c0f30dcf4e
+Error response from daemon: conflict: unable to remove repository reference "jekyll/jekyll:3.8.5" (must force) - container 1b9744f03a04 is using its referenced image 9a231cb4dfd0
