@@ -8,7 +8,7 @@ title:  "Creating Random Image"
 
 categories: [interface,images]
 
-tags: [user interface,mock images]
+tags: [featured,user interface,mock images]
 
 image: https://random.imagecdn.app/820/360
 
