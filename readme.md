@@ -4,7 +4,7 @@ Software Developer Things is a software developer centric blog brought into exis
 
 ![so that they all may grow.](/assets/images/cover-image.png)
 
-Software Developer Things is a jekyll blog written by an senior software developer with 15 years of experience in consulting, corporate and government. and his assistants.
+Software Developer Things is a jekyll blog written by a senior software developer from the US with 15 years of experience in consulting, corporate and government. and his assistants helped too.
 
 This project was brought into existence with love for all software developers. This project was brought into existence so that they all may learn. This project was brought into existence so that they all may grow.
 
@@ -14,6 +14,6 @@ Software Developer Things is freely available and has been shared with all with 
 
 ## Read The Software Developer Things Blog
 
-Click the link below to access this project.
+Click the link below to access the Software Developer Things project.
 
 [Read Stuff On Software Developer Things](https://SoftwareDeveloperThings.com/)
