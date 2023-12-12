@@ -8,7 +8,7 @@ title:  "Transform Your HTML Source Code Into A Docker Image [2023]"
 
 categories: [html,docker]
 
-image: https://random.imagecdn.app/820/360?q=5
+image: assets/images/softwareshinobi/html/docker/transform-html-website-docker-image.png
 
 description: "In this docker guide you'll learn how to transform your HTML source code into a Docker image using a Dockerfile and Docker Compose."
 
