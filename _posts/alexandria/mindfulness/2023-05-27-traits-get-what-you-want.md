@@ -12,11 +12,9 @@ tags: [lifestyle,mindfulness]
 
 image: https://random.imagecdn.app/820/360
 
-description: "In this article we detail 15 traits to adopt to get what you want out of life."
+description: "Getting what you really want from life is easier than you most people think."
 
 hidden: false
-
-tags: featured
 
 ---
 
