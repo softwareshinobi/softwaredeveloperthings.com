@@ -18,6 +18,8 @@ hidden: false
 
 ---
 
+Learn how to turn your HTML source code into a Docker image using a linux server, a Dockerfile and Docker Compose.
+
 ## introduction
 
 In this docker guide you'll learn how to transform your HTML source code into a Docker image using a Linux Server, a Dockerfile and Docker Compose.
