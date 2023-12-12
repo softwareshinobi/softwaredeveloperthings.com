@@ -87,3 +87,5 @@ other people's shit.
 * https://davidjguru.github.io/blog/linux-200-commands-for-everyday-life
 * https://davidjguru.github.io/blog/linux-random-commands-for-your-daily-life
 * https://aruva.medium.com/100-bash-aliases-for-supersonic-productivity-d54a796422d9
+
+## namaste.

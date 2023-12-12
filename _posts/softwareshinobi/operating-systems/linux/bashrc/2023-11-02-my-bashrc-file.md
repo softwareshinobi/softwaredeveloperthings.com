@@ -90,3 +90,5 @@ alias vpn="sudo killall openvpn;sudo openvpn ~/.shinobiNET-openvpn-config.ovpn"
 #alias @vpn="vpn"
 
 ```
+
+## namaste.
