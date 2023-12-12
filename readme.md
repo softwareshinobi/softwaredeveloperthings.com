@@ -1,49 +1,19 @@
 # softwaredeveloperthings.com Presented By @SoftwareShinobi
 
-## existing
+Software Developer Things is a software developer centric blog brought into existence so that they all may grow as software developers.
 
-[`homepage`] on the homepage, use the word articles throughout the page
+![so that they all may grow.](/assets/images/cover-image.png)
 
-[`homepage`] correcting the page title on index.html to not mention staging
+Software Developer Things is a jekyll blog written by an senior software developer with 15 years of experience in consulting, corporate and government. and his assistants.
 
-## reviewing
+This project was brought into existence with love for all software developers. This project was brought into existence so that they all may learn. This project was brought into existence so that they all may grow.
 
-## blocking
+There's content across a wide range of categories from harcore terminal and syntax commands to softer topics like marketing, blogging, networking, job searching.
 
-## creating
+Software Developer Things is freely available and has been shared with all with the intention to be consumed by all.
 
-## scoping
+## Read The Software Developer Things Blog
 
-## back logging
+Click the link below to access this project.
 
-### software developer things
-
-[`premium`] there is a banner ad article template
-
-[`premium`] there is a banner ad in the side bar
-
-[`share`] the 'share article' dropdown needs to have linkedin and facebook
-
-[`article marketing`] the featured article is not displaying the article image
-
-[`article marketing`] the featured article is not displaying the article description text
-
-[`article marketing`] the featured article CTA is 'Read Featured Article'
-
-[`user profiles`] the software-shinobi user's outbound link to be replaced with softwareshinobi.digital link
-
-[`template`] the top right search box text could be improved slightly
-
-[`template`] the `Next` page link to says `Next Page`
-
-[`template`] the `Previous` page link to says `Previous Page`
-
-[`content`] publish article about tech imagery randomizer from across the internet
-
-[`content`] publish article about tech imagery randomizer from across the internet
-
-### operations & maintenance
-
-[`maintenance`] fix my git commit username situation
-
-[`maintenance`] change my github name from `software-shinobi` to `softwareshinobi`
+[Read Stuff On Software Developer Things](https://SoftwareDeveloperThings.com/)
