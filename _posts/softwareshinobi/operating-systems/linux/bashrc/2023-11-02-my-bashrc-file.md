@@ -4,14 +4,15 @@ layout: post
 
 author: softwareshinobi
 
-title:  "Senior Developer REVEALS personal bashrc file"
+title:  "Senior Developer REVEALS personal BASHRC file"
 
 categories: [linux,bashrc]
 
 tags: [linux,bashrc]
 
 image: https://random.imagecdn.app/820/360
-description: "Senior Developer REVEALS personal bashrc file"
+
+description: "Senior Developer REVEALS personal BASHRC file"
 
 hidden: false
 
@@ -24,17 +25,26 @@ this is my bashrc file situation on my home linux workstation, pandora.
 ## how it works
 
 1. the primary bashrc file `~/.bashrc` is modified to run the secondary bashrc.
+
 1. the secondary bashrc file `~/.$USER.bashrc` contains the extended configurations.
 
-## bashrc file [~/$USER/.bashrc]
+## add this to your bashrc file [~/.bashrc] first
 
-existing `.bashrc` content is ignored.
+open up the bashrc file.
 
 ```bash
+nano ~/.bashrc
+```
+
+ADD the following text on a blank line to your bashrc file.
+
+```
 source ~/.$USER.bashrc
 ```
 
-## the custom bashrc stuff [~/.$USER.bashrc]
+`note`: existing content in the bashrc file can remain unchanged
+
+## add in the custom bashrc stuff [~/.$USER.bashrc]
 
 ```bash
 #!/bin/bash
@@ -75,7 +85,7 @@ alias shinobiNET='ssh software-shinobi@shinobinet.online'
 
 alias tunnel="sudo ssh -L 8080:127.0.0.1:80 valorant-digital@shinobinet.online"
 
-alias vpn="sudo pkill openvpn;sudo openvpn ~/.shinobiNET-openvpn-config.ovpn"
+alias vpn="sudo killall openvpn;sudo openvpn ~/.shinobiNET-openvpn-config.ovpn"
 
 #alias @vpn="vpn"
 
