@@ -8,11 +8,11 @@ title:  "setting up a postgres database + pgadmin4 using docker compose [ubuntu 
 
 categories: [postgres,docker]
 
-tags: [docker compose,compose,database,postgres,pgadmin]
+tags: [docker, docker compose,relational database,postgres,pgadmin]
 
 image: https://random.imagecdn.app/820/360
 
-description: "this is a docker compose configuration to spin up a postres database plus the administration website."
+description: "this is a docker compose configuration to spin up a postgres database plus the administration website."
 
 hidden: false
 
@@ -20,7 +20,7 @@ hidden: false
 
 ## about this script
 
-this is a docker compose configuration to spin up a postres database plus the administration website.
+this is a docker compose configuration to spin up a postgres database plus the administration website.
 
 ## docker-compose.yaml
 
