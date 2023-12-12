@@ -18,6 +18,8 @@ hidden: false
 
 ---
 
+Sometimes you just need an oprah 'you get a...' meme.
+
 ## introduction
 
 Sometimes you just need an oprah 'you get a...' meme.

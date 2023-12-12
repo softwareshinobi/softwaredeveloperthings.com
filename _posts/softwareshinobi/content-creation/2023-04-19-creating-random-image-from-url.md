@@ -18,9 +18,11 @@ hidden: false
 
 ---
 
+Sometimes you just need a trivial cover image for a peice of content.
+
 ## introduction
 
-Sometimes you just need a cover image for a peice of content.
+Sometimes you just need a trivial cover image for a peice of content.
 
 Nobody has time to find an appropriate stubbed image, just to fill out content.
 
