@@ -5,7 +5,7 @@ favicon: 'assets/images/favicon.ico'
 
 name: "Software Developer Things"
 
-title: "Article Editing Work333space"
+title: ""
 
 description: "I'll put something witty and clever here later."
 
@@ -27,16 +27,6 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-
-
-authors:
 
   softwareshinobi:
 
@@ -48,13 +38,14 @@ authors:
 
     site: https://links.softwareshinobi.digital
 
-    twitter: https://www.facebook.com/software.developer.things
+    twitter: https://links.softwareshinobi.digital
 
     description: "Freelance Software Developer & Technical Writer. I design, code, test, document, and deploy software things."
 
     avatar: 'assets/images/valorant/softwareshinobi.jpg'
 
     bio: "Freelance Software Developer & Technical Writer. I design, code, test, document, and deploy software things."
+
   bohra:
 
     name: "Bohra"
