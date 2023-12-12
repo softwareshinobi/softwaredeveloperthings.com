@@ -10,7 +10,7 @@ categories: [interface,images]
 
 tags: [user interface,mock images]
 
-image: https://imgflip.com/i/894hnp
+image: https://i.imgflip.com/894hnp.jpg
 
 description: "Creating an oprah meme using an online Oprah Meme Generator"
 
@@ -43,9 +43,9 @@ https://imgflip.com/memegenerator/Oprah-You-Get-A
 ## using with markdown
 
 ```
-![random image](https://imgflip.com/i/894hnp)
+![random image](https://i.imgflip.com/894hnp.jpg)
 ```
 
 ## live demo
 
-![random image](https://imgflip.com/i/894hnp)
+![random image](https://i.imgflip.com/894hnp.jpg)
