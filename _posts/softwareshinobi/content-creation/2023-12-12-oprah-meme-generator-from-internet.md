@@ -4,7 +4,7 @@ layout: post
 
 author: softwareshinobi
 
-title:  "Creating Random Image"
+title:  "Oprah Meme Generator"
 
 categories: [interface,images]
 
@@ -12,7 +12,7 @@ tags: [user interface,mock images]
 
 image: https://imgflip.com/i/894hnp
 
-description: "Creating Random Image From URL"
+description: "Creating an oprah meme using an online Oprah Meme Generator"
 
 hidden: false
 
