@@ -4,11 +4,11 @@ layout: post
 
 author: softwareshinobi
 
-title:  "remote desktop linux environment [docker compose]"
+title: "spinning up a pristine linux desktop environment in the cloud"
 
-categories: [linux,cloud]
+categories: [linux,docker]
 
-tags: [docker-compose,linux,remote-desktop,vnc,rdp,compose]
+tags: [hacker,security,desktop,vnc,rdp,docker,docker,docker compose,linux,cloud]
 
 image: https://random.imagecdn.app/820/360
 

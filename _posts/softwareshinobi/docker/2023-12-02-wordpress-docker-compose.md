@@ -4,7 +4,7 @@ layout: post
 
 author: softwareshinobi
 
-title:  "docker media server [docker compose]"
+title:  "spinning up a wordpress server using docker compose"
 
 categories: [wordpress,docker]
 
@@ -67,9 +67,6 @@ services:
       WORDPRESS_DB_NAME: sdt_shop
     volumes:
       ["./volume-wordpress:/var/www/html"]
-
-
-
 ```
 
 ## access the situation
